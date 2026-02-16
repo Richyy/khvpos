@@ -19,7 +19,6 @@ class ApplePayInitRequest implements RequestInterface
     public function getEndpointPath(): string
     {
         throw new \RuntimeException("Method not implemented yet");
-        return '';
     }
 
     #[Ignore]
