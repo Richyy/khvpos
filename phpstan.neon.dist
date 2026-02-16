@@ -1,0 +1,8 @@
+parameters:
+    level: 8
+    phpVersion: 80200
+    paths:
+        - src
+
+includes:
+    - tests/StaticAnalysis/phpstan.baseline.php

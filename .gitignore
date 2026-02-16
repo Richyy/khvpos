@@ -1,1 +1,10 @@
 vendor
+.idea
+composer.lock
+tests/coverage
+coverage.xml
+
+.phpunit.result.cache
+phpunit.xml
+
+.env
