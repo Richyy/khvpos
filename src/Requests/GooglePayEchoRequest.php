@@ -24,7 +24,7 @@ class GooglePayEchoRequest implements RequestInterface
     #[Ignore]
     public function getResponseClass(): string
     {
-        exit;
+        throw new \RuntimeException("Method not implemented yet");
         // TODO: Implement getResponseClass() method.
     }
 }

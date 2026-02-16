@@ -18,14 +18,14 @@ class ApplePayInitRequest implements RequestInterface
     #[Ignore]
     public function getEndpointPath(): string
     {
-        exit;
+        throw new \RuntimeException("Method not implemented yet");
         return '';
     }
 
     #[Ignore]
     public function getResponseClass(): string
     {
-        exit;
+        throw new \RuntimeException("Method not implemented yet");
         // TODO: Implement getResponseClass() method.
     }
 }

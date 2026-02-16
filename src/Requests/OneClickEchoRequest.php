@@ -28,7 +28,7 @@ class OneClickEchoRequest implements RequestInterface
     #[Ignore]
     public function getResponseClass(): string
     {
-        exit;
+        throw new \RuntimeException("Method not implemented yet");
     }
 
     /**
