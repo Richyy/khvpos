@@ -24,6 +24,8 @@ jobs:
     name: PHP ${{ matrix.php }}
 
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     strategy:
       matrix:

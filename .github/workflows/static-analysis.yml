@@ -25,6 +25,8 @@ jobs:
   static-analysis-phpstan:
     name: Static Analysis with PHPStan
     runs-on: ubuntu-22.04
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout code
